@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Projeto Countdown</title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/et-lineicon.css" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,400italic,500italic,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+
+        <div class="animationload">
+            <div class="loader">
+                Carregando...
+            </div>
+        </div> 
+        
+		<section id="home">
+			<div class="content">
+                <div id="large-header" class="large-header">
+                    <canvas id="demo-canvas"></canvas>
+                    <div id="countdown_dashboard" class="home-main container">
+                        <div class="row">
+                           
+                        </div>
+                        <div class="row">
+                            <!-- dias -->
+                            <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                                <div class="dash days_dash">
+                                    <div class="digit">0</div>
+                                    <div class="digit">0</div>
+                                    <span class="dash_title">Dias</span>
+                                </div>
+                            </div>
+                            <!-- horas -->
+                            <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                                <div class="dash hours_dash">
+                                    <div class="digit">0</div>
+                                    <div class="digit">0</div>
+                                    <span class="dash_title">Horas</span>
+                                </div>
+                            </div>
+                            <!-- minutos -->
+                            <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                                <div class="dash minutes_dash">
+                                    <div class="digit">0</div>
+                                    <div class="digit">0</div>
+                                    <span class="dash_title">Minutos</span>
+                                </div>
+                            </div>
+                            <!-- segundos -->
+                            <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                                <div class="dash seconds_dash">
+                                    <div class="digit">0</div>
+                                    <div class="digit">0</div>
+                                    <span class="dash_title">Segundos</span>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div> 
+            </div> 
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                        <div class="main_content">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="social list-inline">
+                            <li class="social-btn" id="fb"><a href="https://www.facebook.com/bruno.sales.designers/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li class="social-btn" id="gth"><a href="https://github.com/brunorafael96" target="_blank"><i class="fa fa-github"></i></a></li>
+                            <li class="social-btn" id="tbl"><a href="https://www.linkedin.com/in/bruno-rafael-40592875/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="social-btn" id="pin"><a href="https://br.pinterest.com/BrunoRafaelDesigner/_saved/" target="_blank"><i class="fa  fa-pinterest"></i></a></li>
+                            <li class="social-btn" id="flk"><a href="https://www.instagram.com/bruno.rafael.dev/" target="_blank"><i class="fa  fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="copyright">Feito por <a href="https://www.linkedin.com/in/bruno-rafael-40592875/">Bruno Rafael</p>
+                </div>
+            </div>
+        </footer>
+            
+        
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.lwtCountdown-1.0.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/animated.js"></script>
+        <script src="js/main.js"></script>
+	</body>
+</html>
